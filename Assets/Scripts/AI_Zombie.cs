@@ -8,6 +8,7 @@ public class AI_Zombie : MonoBehaviour {
 
 	void Start () 
 	{
+		target =  GameObject.FindWithTag("Player").transform;
 		Reset ();
 	}
 
